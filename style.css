@@ -299,6 +299,17 @@ footer{
 .links ul li{
     margin-bottom: 15px;
 }
+.links ul li:hover{
+  text-decoration: underline;
+  color: #FFFFFF;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.social-media p:hover{
+  text-decoration: underline;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
 
 
 /* Media query to change grid count and text size for different screen sizes */
