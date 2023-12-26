@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+body {
+    margin: auto;
+}
+
+.logo img {
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1375E4;
+    font-family: 'Mochiy Pop One';
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    /* margin: 5px auto; */
+}
+
+nav div img {
+    border-radius: 50%;
+}
+
+nav div p {
+    margin: 0;
+}
+
+::placeholder {
+    color: #8BC7FF;
+    /* border: 1px solid #8BC7FF */
+}
+
+#name {
+    width: 253px;
+    height: 44px;
+    font-size: 14px;
+}
+
+#surName {
+    width: 253px;
+    height: 74px;
+    font-size: 14px;
+}
+
+#email-id {
+    width: 342px;
+    height: 74px;
+    font-size: 14px;
+}
+
+#phone-number {
+    width: 342px;
+    height: 74px;
+    font-size: 14px;
+}
+
+#school-name {
+    width: 342px;
+    height: 74px;
+    font-size: 14px;
+}
+
+#address {
+    width: 342px;
+    height: 74px;
+    font-size: 14px;
+}
+
+#state {
+    width: 249px;
+    height: 74px;
+    font-size: 14px;
+}
+
+#city {
+    width: 163px;
+    height: 74px;
+}
+
+#pincode {
+    width: 163px;
+    height: 74px;
+}
+
+.label-text {
+    font-size: 20px;
+    color: #1375E4;
+    font-weight: 1000;
+}
+
+.input-div {
+    border-radius: 10px;
+    border: 2px solid #8BC7FF
+}
+
+footer {
+    background-color: #1375E4;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.social-media,
+.links {
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.social-media {
+    padding-top: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin-top: -10px;
+}
+
+.social-media ul li {
+    margin-right: 5px;
+}
+
+.social-media ul li img {
+    border-radius: 20%;
+}
+
+.links ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.links ul li {
+    margin-bottom: 15px;
+}
+
+.links ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+.social-media img:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
