@@ -39,75 +39,90 @@ nav div img {
 nav div p {
     margin: 0;
 }
-
-::placeholder {
-    color: #8BC7FF;
-    /* border: 1px solid #8BC7FF */
+::placeholder{
+  color: #367DCA;  
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+    width: 100%;
+    font-size: 18px;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: white;
+    /* outline: none; */
+    border-bottom: 1px solid #d6d6d6;
 }
 
-#name {
-    width: 253px;
-    height: 44px;
-    font-size: 14px;
+.form-body {
+    background-color: white;
+    /* padding: 5px 10px; */
 }
 
-#surName {
-    width: 253px;
-    height: 74px;
-    font-size: 14px;
+.contest-div{
+    display: flex;
 }
 
-#email-id {
-    width: 342px;
-    height: 74px;
-    font-size: 14px;
+.from-field{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
 }
 
-#phone-number {
-    width: 342px;
-    height: 74px;
-    font-size: 14px;
-}
-
-#school-name {
-    width: 342px;
-    height: 74px;
-    font-size: 14px;
-}
-
-#address {
-    width: 342px;
-    height: 74px;
-    font-size: 14px;
-}
-
-#state {
-    width: 249px;
-    height: 74px;
-    font-size: 14px;
-}
-
-#city {
-    width: 163px;
-    height: 74px;
-}
-
-#pincode {
-    width: 163px;
-    height: 74px;
-}
-
-.label-text {
-    font-size: 20px;
+label{
     color: #1375E4;
-    font-weight: 1000;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Inter';  
+}
+input{
+    border: 2px solid  #367DCA;
 }
 
-.input-div {
-    border-radius: 10px;
-    border: 2px solid #8BC7FF
+@media only screen and (max-width:600px) {
+
+    .contest-div{
+        flex-direction: column;
+    }   
+}
+/* button */
+.procced {
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    margin-top: 30px;
 }
 
+.pushable {
+    background: #1375E4;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.front {
+    display: block;
+    padding: 12px 30px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    background: #59CDFF;
+    font-family: 'Mochiy Pop One';
+    text-shadow: 0px 1px 0px #367DCA;
+    color: white;
+    transform: translateY(-6px);
+}
+
+.pushable:active .front {
+    transform: translateY(-2px);
+}
+
+/* footer */
 footer {
     background-color: #1375E4;
     color: white;
