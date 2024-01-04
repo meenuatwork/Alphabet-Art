@@ -110,4 +110,20 @@ input {
 .pushable {
     width: 100%;
 }
+.fas {
+    color: red;
+}
+
+.sapne-waali {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sapne-waali a {
+    font-family: 'Mochiy Pop One';
+    color: #1375E4;
+    margin-top: 5%;
+    font-size: 18px;
+}
 
