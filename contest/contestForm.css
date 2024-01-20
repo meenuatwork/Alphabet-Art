@@ -6,7 +6,8 @@ form {
   background-color: white;
 }
 
-.text-div {
+.img-upload-div {
+  display: flex;
   padding: 10px;
   width: 80%;
   margin: auto;
@@ -30,16 +31,11 @@ form {
   display: none;
 
 }
-
-.img-upload-div {
-  margin: auto;
-  width: 80%;
-}
-
 .upload-photo {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 163px;
   height: 160px;
   border-radius: 5px;
@@ -47,7 +43,7 @@ form {
   color: #1375E4;
   font-family: Mochiy Pop One;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 h4 {
