@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
-
+/* form */
 form {
   margin: auto;
   width: 80%;
   background-color: white;
 }
+/* art contest text */
+.art-contest-text {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0px 0px 0px;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #8C97A4;
+}
+/* file input */
+#file {
+  display: none;
 
+}
+/* upload div */
 .img-upload-div {
   display: flex;
   padding: 10px;
@@ -16,21 +32,6 @@ form {
   font-weight: 400;
 }
 
-.art-contest {
-  width: 80%;
-  margin: auto;
-  padding: 30px 0px 0px 0px;
-  font-size: 1.2em;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.005em;
-  color: #8C97A4;
-}
-
-#file {
-  display: none;
-
-}
 .upload-photo {
   display: flex;
   justify-content: center;
@@ -44,8 +45,11 @@ form {
   font-family: Mochiy Pop One;
   font-weight: 400;
   margin-bottom: 25px;
+  /* cursor: pointer; */
 }
-
+.fa-upload{
+  cursor: pointer;
+}
 h4 {
   padding: 70px 0px 0px 0px;
   left: 80px;
@@ -55,6 +59,35 @@ hr {
   margin: auto;
   width: 80%;
   border: 1px solid #8BC7FF;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 100%;
+  font-size: 16px;
+  height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  padding: 0px, 12px, 0px, 12px;
+}
+
+label {
+  display: block;
+  color: #1375E4;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  font-family: 'Inter';
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+input {
+  border: 1px solid #8BC7FF;
+  display: block;
 }
 
 ::placeholder {
@@ -137,35 +170,6 @@ hr {
   #pincode {
     width: 91%;
   }
-}
-
-input[type="text"],
-input[type="email"],
-input[type="number"],
-select {
-  width: 100%;
-  font-size: 16px;
-  height: 34px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 8px;
-  padding: 0px, 12px, 0px, 12px;
-}
-
-label {
-  display: block;
-  color: #1375E4;
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 0.005em;
-  font-family: 'Inter';
-  margin-top: 15px;
-  margin-bottom: 8px;
-}
-
-input {
-  border: 1px solid #8BC7FF;
-  display: block;
 }
 
 /* ============ procced button styles ============ */
