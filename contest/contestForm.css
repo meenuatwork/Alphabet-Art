@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
+
 /* form */
 form {
   margin: auto;
   width: 80%;
   background-color: white;
 }
+
 /* art contest text */
 .art-contest-text {
   width: 80%;
@@ -16,11 +18,18 @@ form {
   letter-spacing: 0.005em;
   color: #8C97A4;
 }
+
 /* file input */
 #file {
   display: none;
 
 }
+
+#preview {
+  position: absolute;
+
+}
+
 /* upload div */
 .img-upload-div {
   display: flex;
@@ -45,11 +54,23 @@ form {
   font-family: Mochiy Pop One;
   font-weight: 400;
   margin-bottom: 25px;
+  position: relative;
   /* cursor: pointer; */
 }
-.fa-upload{
-  cursor: pointer;
+.upload-photo:hover #preview{
+  transform: scale(0.6);
+  position: relative;
 }
+
+.fa-upload {
+  cursor: pointer;
+  z-index: -1
+}
+/* .fa-upload:hover{
+  position: relative;
+  z-index: 10;
+} */
+
 h4 {
   padding: 70px 0px 0px 0px;
   left: 80px;
@@ -83,6 +104,8 @@ label {
   font-family: 'Inter';
   margin-top: 15px;
   margin-bottom: 8px;
+  /* position: relative;
+  z-index: 10;  */
 }
 
 input {
@@ -171,6 +194,7 @@ input {
     width: 91%;
   }
 }
+
 /* ============ procced button styles ============ */
 .proceed {
   width: 80%;

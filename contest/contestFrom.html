@@ -21,7 +21,8 @@
   <div class="img-upload-div">
     <div class="upload-photo">
       <label for="file"><i type="file" class=" fa fa-upload" style="font-size:36px"></i></label>
-      <input id="file" type="file" accept="image/jpeg, image/png,image/jpg" id="input-file">
+      <input id="file" type="file" accept="image/jpeg, image/png,image/jpg" onchange="previewImage(event)">
+      <img id="preview">
     </div>
   </div>
 
