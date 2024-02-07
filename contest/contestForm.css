@@ -58,8 +58,9 @@ form {
   /* cursor: pointer; */
 }
 .upload-photo:hover #preview{
-  transform: scale(0.6);
+  /* transform: scale(0.6); */
   position: relative;
+  /* z-index: 1; */
 }
 
 .fa-upload {
